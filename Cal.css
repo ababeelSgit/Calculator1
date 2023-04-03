@@ -1,0 +1,134 @@
+*
+
+{
+    
+   
+    padding: 0;
+ transition: all 0.5s ease;
+     font-family:serif;
+     margin: 0;
+     box-sizing: border-box;
+     
+}
+body
+{
+
+    background-image: url(pexels-james-wheeler-1486974.jpg);
+} 
+.container
+{
+
+
+ border-radius: 10px;
+ display: grid;
+overflow-x: hidden;
+ height: 100vh;
+ width: 100vh;
+ 
+ place-items: center;
+ 
+}
+.num  
+{
+ 
+   border-radius: 20px;
+   align-items: start;
+   justify-content: space-between;
+   
+   width: auto;
+   height: auto;
+   padding: 20px;
+   box-shadow: 0 0 30px #000;
+flex-direction: column;
+
+
+}
+.container img
+{
+
+   width: 100%;
+   height:100% ;
+   object-fit: contain;
+
+}
+.num1
+{
+
+   display: flex;
+   width: 50px;
+   height: 40px;
+   justify-content: space-around;
+
+   display: grid;
+}
+.theme-toggler
+{
+
+  position:absolute;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+#display
+{
+
+ margin: 0 auto;
+ height: 20px;
+ width: 100px;
+
+ display: flex;
+ align-items: flex-end;
+ border: 1px solid #fff;
+ background-color: transparent;
+ border-radius: 10px;
+ box-shadow: 0 0 10px #F9E2E2;
+ 
+}
+button
+{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+
+}
+button:hover
+
+{
+   transform: scale(1.15)
+
+
+}
+.equal
+{
+
+ height: 130px;
+ background-color:#D0ECFF;
+ color: #f967f3;
+}
+.btn-operator {
+    background-color: #F9E2E2;
+    color: #f967f3;
+  }
+  .screen
+  {
+     background-color: #fff;
+     width: 300px;
+     height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+   color: darkred;
+   border-color: transparent;
+
+  }
+ 
